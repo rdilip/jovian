@@ -23,16 +23,18 @@
 ## 📜 Paper
 
 > **Jovian: Bidirectional Autoregressive Models Enable Zero-Shot Motif Scaffolding in Protein Design**  
-> [Paper Link (NeurIPS 2025)](https://arxiv.org/abs/XXXX.XXXXX) – Coming soon  
-> Rohit K. Dilip, et al.
+> [Paper Link]() – Coming soon  
 
 ---
 
 ## 📦 Installation
+We recommend installation with pip or uv.
 
 ```bash
-git clone https://github.com/yourusername/jovian.git
+git clone https://github.com/rdilip/jovian.git
 cd jovian
-conda create -n jovian python=3.10
-conda activate jovian
+venv --python=3.10
 pip install -r requirements.txt
+
+## Inference
+Coming soon!

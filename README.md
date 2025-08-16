@@ -1,4 +1,4 @@
-# Jovian: Bidirectional Autoregressive Protein Backbone Generation
+# Jovian: Bidirectional Autoregressive Protein Structure Generation
 
 **Jovian** is a bidirectional autoregressive model for **protein backbone generation** that  
 1. Learns both **sequence length** and **motif positioning** by conditioning on prediction direction.  
@@ -22,7 +22,7 @@
 
 ## 📜 Paper
 
-> **Jovian: Bidirectional Autoregressive Models Enable Zero-Shot Motif Scaffolding in Protein Design**  
+> **Jovian: Bidirectional Autoregressive Protein Structure Generation**
 > [Paper Link]() – Coming soon  
 
 ---

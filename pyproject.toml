@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name            = "jovian"
+version         = "0.0.0"
+description     = "Bidirectional GPT for protein token sequences"
+requires-python = ">=3.9"
+readme          = "README.md"
+license         = { text = "MIT" }
+
+dependencies = [
+    "torch>=2.1",
+    "numpy",
+    "wandb",
+    "pydantic>=2.0",
+    "pyyaml",
+    "jaxtyping"
+]
+
+[tool.setuptools.packages.find]
+where   = ["."]
+include = ["jovian*"]
+exclude = ["train", "configs", "tests", "nb", "data"]
+
+[tool.ruff]
+lint.ignore = ["F722"]        # keep your existing rule

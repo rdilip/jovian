@@ -1,0 +1,7 @@
+descr: "example"
+batch_size: 16
+n_layers: 8
+dim: 128
+lr: 1.0e-4
+use_wandb: true
+pth_to_tokens: "datasets/ops_custom/"
